@@ -1,0 +1,271 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'ja' Physical Memory: 16265 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tori/Desktop/player
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57236
+Successfully changed project path to: C:/Users/tori/Desktop/player
+C:/Users/tori/Desktop/player
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tori/Desktop/player/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e98)
+    Vendor:   
+    VRAM:     8132 MB
+    Driver:   26.20.100.7584
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001374 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004007 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3371.
+Total: 1.816800 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.097100 ms MarkObjects: 1.455000 ms  DeleteObjects: 0.068000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Tile/DeterminationJP.ttf
+  artifactKey: Guid(3a5cc8a64c1c0fa4e8cf28283c05ae68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tile/DeterminationJP.ttf using Guid(3a5cc8a64c1c0fa4e8cf28283c05ae68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952385cc56725482025b615cf63f3a0f') in 0.098512 seconds
+  Import took 0.102140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Scenes/Tile
+  artifactKey: Guid(2e54c30525272af42bc2a948272e60da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tile using Guid(2e54c30525272af42bc2a948272e60da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ece351da979627d5df085f8e5a2a5b4') in 0.005304 seconds
+  Import took 0.009181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.208695 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b0501231039a64310a5cbbf8065c3eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b0501231039a64310a5cbbf8065c3eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e19fe5cd5074a388d877282b8871e74') in 0.007507 seconds
+  Import took 0.011619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.155147 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(e2abbb476644147498637c437a7b2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(e2abbb476644147498637c437a7b2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc7040dfd6089ad89c0610304ca2124') in 0.007062 seconds
+  Import took 0.012469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.796704 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d790c0c792592402298c567a477a7811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d790c0c792592402298c567a477a7811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5212de7a1e03f093c2489e86343fd8') in 0.006961 seconds
+  Import took 0.012314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001547 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d790c0c792592402298c567a477a7811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d790c0c792592402298c567a477a7811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5212de7a1e03f093c2489e86343fd8') in 0.001884 seconds
+  Import took 0.006676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.143526 seconds.
+  path: Assets/Materials/Wall.mat
+  artifactKey: Guid(28a370bb57d58714a9fe7d10f70803af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wall.mat using Guid(28a370bb57d58714a9fe7d10f70803af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517e10e791851739e087b29a276c4abc') in 0.027203 seconds
+  Import took 0.031743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.180625 seconds.
+  path: Assets/Scenes/Wall.prefab
+  artifactKey: Guid(dcc04f25edba01848b8fae78f4c0b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Wall.prefab using Guid(dcc04f25edba01848b8fae78f4c0b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e67ffd53c146235e14ec2e8e72b0764') in 0.019078 seconds
+  Import took 0.022824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006076 seconds.
+  path: Assets/Scenes/Wall.prefab
+  artifactKey: Guid(dcc04f25edba01848b8fae78f4c0b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Wall.prefab using Guid(dcc04f25edba01848b8fae78f4c0b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e67ffd53c146235e14ec2e8e72b0764') in 0.006540 seconds
+  Import took 0.010402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.156224 seconds.
+  path: Assets/Scenes/MazeCreator.cs
+  artifactKey: Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazeCreator.cs using Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adae1691e4612cd11eb88aee9d436a04') in 0.012622 seconds
+  Import took 0.016381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065324 seconds.
+  path: Assets/Scenes/MazeCreator.cs
+  artifactKey: Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazeCreator.cs using Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adae1691e4612cd11eb88aee9d436a04') in 0.002053 seconds
+  Import took 0.006210 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003779 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2936 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.8 MB.
+System memory in use after: 108.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3420.
+Total: 2.071200 ms (FindLiveObjects: 0.264700 ms CreateObjectMapping: 0.167400 ms MarkObjects: 1.588200 ms  DeleteObjects: 0.049900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003816 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2936 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.9 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3423.
+Total: 1.972700 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.105100 ms MarkObjects: 1.561700 ms  DeleteObjects: 0.066500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 839.575816 seconds.
+  path: Assets/Scenes/MazeCreator.cs
+  artifactKey: Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazeCreator.cs using Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127920014ec08832386393802763d8a7') in 0.007587 seconds
+  Import took 0.011259 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2936 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.9 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3426.
+Total: 2.699300 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.259200 ms MarkObjects: 2.095500 ms  DeleteObjects: 0.054300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.844006 seconds.
+  path: Assets/Scenes/MazeCreator.cs
+  artifactKey: Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazeCreator.cs using Guid(06160d294dc832f4a92c8d5ec91bcc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283cc108d11acebc84cbf36f1b5f64ed') in 0.004687 seconds
+  Import took 0.008419 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tori\Desktop\player\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2936 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.9 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3429.
+Total: 1.691100 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.092600 ms MarkObjects: 1.346100 ms  DeleteObjects: 0.047500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.302514 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(e2abbb476644147498637c437a7b2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(e2abbb476644147498637c437a7b2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848a3e10e15dcccef982af704efa2e56') in 0.009447 seconds
+  Import took 0.013945 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

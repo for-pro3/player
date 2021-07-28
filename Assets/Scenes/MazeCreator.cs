@@ -6,11 +6,14 @@ using System;
 public class MazeCreator : MonoBehaviour
 {
     public GameObject obj_wall;
+    public GameObject obj_treasure;
+    public GameObject obj_sphere;
     class FieldCreater
     {
         int _mazeX;  //迷路を上から見た時の横軸、５以上の奇数
         int _mazeY;  //迷路を上から見た時の縦軸、５以上の奇数
         int[,] _maze;
+        int[] _treasure = new int[2];
 
         public int getMazeX  // getter
         {
@@ -20,6 +23,13 @@ public class MazeCreator : MonoBehaviour
         {
             get { return _mazeY; }
         }
+
+        public int[] getTreasure
+        {
+            get { return _treasure; }
+        }
+
+
 
         // 通路・壁
         const int path = 1;
@@ -160,10 +170,13 @@ public class MazeCreator : MonoBehaviour
             // どこにも掘り進められない場合、穴掘り開始候補座標から掘りなおし
             // 候補座標が存在しないとき、穴掘り完了
             var square = GetStartSquare();
+            
             if (square != null)
             {
                 Dig(square.X, square.Y);
             }
+            _treasure[0] = x;
+            _treasure[1] = y;
         }
 
 
@@ -189,6 +202,9 @@ public class MazeCreator : MonoBehaviour
         //fieldCreater.Dig(1, 1);
         int[,] maze = fieldCreater.CreateMaze();
 
+        int treasureX = fieldCreater.getTreasure[0];
+        int treasureY = fieldCreater.getTreasure[1];
+
         //objectを壁=０に配置
         for (int y = 0; y < fieldCreater.getMazeY; y++) //フィールドの縦幅の分だけループする。
         {
@@ -202,8 +218,12 @@ public class MazeCreator : MonoBehaviour
                 {
                     Instantiate(obj_wall, new Vector3(5.0f * x, 5.0f, 5.0f * y), Quaternion.identity); //壁を配置する。
                 }
+
             }
         }
+
+        Instantiate(obj_treasure, new Vector3(5.0f * treasureX, 0, 5.0f * treasureY), Quaternion.identity);
+        Instantiate(obj_sphere, new Vector3(5.0f * treasureX, 0, 5.0f * treasureY), Quaternion.identity);
 
     }
 
